@@ -300,7 +300,7 @@ Dupe_Auto:Button("Start MaxLand Dupe", function()
             scr.selectionMade()
             wait(KKA)
             KKC()
-            game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
+            game:shutdown()
         end
     end
     Dupe(KKB)
@@ -419,3 +419,6 @@ until result
 getgenv().block_save = true
 notify("Saved !","",5)
 end)
+
+
+
