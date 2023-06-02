@@ -92,7 +92,7 @@ end
 local UIlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Aidanman14/Test_ui/main/PJMUICustomizable"))()
 
 
-local Win = UIlib:Window("Step's Shop", "Public")
+local Win = UIlib:Window("Step's Shop", "Public (Mobile)")
 local Player = Win:Tab("Player")
 local World = Win:Tab("World")
 local Dupe_Axe = Win:Tab("Axe Dupe")
