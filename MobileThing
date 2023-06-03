@@ -1,3 +1,5 @@
+-- udpated
+
 getgenv().TabSettings = { --customize yo stuff here
 Background = Color3.fromRGB(27, 27, 27),
 DarkContrast = Color3.fromRGB(35, 35, 35),--Element color
@@ -327,6 +329,7 @@ Dupe_Auto:Button("Start MaxLand Dupe", function()
             wait()
             scr.selectionMade()
             wait(KKA)
+            KKC()
             game:shutdown()
         end
     end
