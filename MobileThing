@@ -1,4 +1,4 @@
--- udpated
+-- udpateds
 
 getgenv().TabSettings = { --customize yo stuff here
 Background = Color3.fromRGB(27, 27, 27),
